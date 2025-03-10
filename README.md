@@ -1,4 +1,4 @@
-# Creating the README.md file with detailed documentation
+# README.md file with detailed documentation
 
 readme_content = """# 🕰️ Watch Store - ReactJS Website
 
@@ -33,27 +33,18 @@ Ensure you have the following installed:
 - **npm (Node Package Manager)** (Comes with Node.js)
 
 ### **2️⃣ Clone the Repository**
-```sh
-git clone https://github.com/Divyanshu1121/watch-store-react.git
-cd watch-store-react
-3️⃣ Install Dependencies
-sh
-Always show details
 
-Copy
+git clone https://github.com/Divyanshu1121/Watch-Store-React.git
+cd Watch-Store-React
+3️⃣ Install Dependencies
+
 npm install
 4️⃣ Start the Development Server
-sh
-Always show details
 
-Copy
 npm run dev
 The project will run at http://localhost:5173/ (Default Vite port).
 📂 Project Structure
-php
-Always show details
 
-Copy
 watch-store-react/
 │── public/              # Static assets (Images, favicon, etc.)
 │   ├── images/          # Stores all images used in the project
@@ -70,6 +61,7 @@ watch-store-react/
 │   ├── index.css        # Global styles
 │── package.json         # Project dependencies & scripts
 │── README.md            # Documentation (This file)
+
 💻 Technologies Used
 React.js - Frontend UI framework
 Vite - Fast build tool for React
@@ -78,19 +70,25 @@ Flexbox & Grid - Responsive layouts
 React Hooks (useState, useEffect) - State management
 ES6+ JavaScript - Modern JavaScript features
 📖 How to Use
+
 🏠 Home Page
 Displays a full-screen banner with parallax effect.
 Sections: About Us, Why Choose Us, Testimonials, and Newsletter.
+
 🛍️ Shop Page
 Displays multiple watches in a grid layout.
 Each product has hover animations and an "Add to Cart" button.
+
 ℹ️ About Page
 Provides company information with a full-width background image.
+
 📞 Contact Page
 Contains a basic contact form for customer inquiries.
+
 🌗 Dark/Light Mode
 Click the theme toggle button in the Navbar to switch themes.
 Automatically updates the UI without page refresh.
+
 🔧 Future Enhancements
 🛒 Shopping Cart Functionality
 🌎 Multi-Language Support
@@ -98,9 +96,8 @@ Automatically updates the UI without page refresh.
 💳 Online Payment Integration
 📦 User Authentication (Login/Register)
 👨‍💻 Author
-Your Name
-GitHub: @yourusername
-LinkedIn: Your LinkedIn
+Divyanshu Patel
+
 🎯 Contributing
 If you’d like to contribute, please fork the repository and submit a pull request.
 
