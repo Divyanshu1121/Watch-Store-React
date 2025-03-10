@@ -1,0 +1,132 @@
+.home-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1a1a1a, #2c2c2c);
+    color: white;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+.about-us,
+.why-choose-us,
+.customer-reviews,
+.newsletter {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('/images/background-texture.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.about-us h2,
+.why-choose-us h2,
+.customer-reviews h2,
+.newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.review {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 15px auto;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+.newsletter input {
+    width: 40%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.newsletter button:hover {
+    background: #cc5200;
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .review {
+        width: 90%;
+    }
+}
