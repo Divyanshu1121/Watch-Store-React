@@ -110,4 +110,4 @@ If you’d like to contribute, please fork the repository and submit a pull requ
 This project is licensed under the MIT License.
 
 💡 Final Thoughts
-This React-based Watch Store Website is a fully responsive and interactive project. It showcases key ReactJS concepts, including state management, component-based architecture, and modern UI/UX features. 🚀 """
+This React-based Watch Store Website is a fully responsive and interactive project. It showcases key ReactJS concepts, including state management, component-based architecture, and modern UI/UX features. 🚀 
