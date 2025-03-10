@@ -1,6 +1,6 @@
 # README.md file with detailed documentation
 
-readme_content = """# 🕰️ Watch Store - ReactJS Website
+ 🕰️ Watch Store - ReactJS Website
 
 A modern, fully responsive **Watch Store Website** built using **ReactJS**.  
 This project features **dynamic navigation, dark/light mode, full-screen images, animations, and a well-structured UI**.
@@ -23,7 +23,6 @@ This project features **dynamic navigation, dark/light mode, full-screen images,
 - ℹ️ **About Page** (Company information with a well-placed image)
 - 📞 **Contact Page** (Basic form with inquiry details)
 
----
 
 ## 🛠️ Installation Guide
 
@@ -35,14 +34,18 @@ Ensure you have the following installed:
 ### **2️⃣ Clone the Repository**
 
 git clone https://github.com/Divyanshu1121/Watch-Store-React.git
+
 cd Watch-Store-React
+
 3️⃣ Install Dependencies
 
 npm install
 4️⃣ Start the Development Server
 
 npm run dev
+
 The project will run at http://localhost:5173/ (Default Vite port).
+
 📂 Project Structure
 
 watch-store-react/
@@ -63,12 +66,14 @@ watch-store-react/
 │── README.md            # Documentation (This file)
 
 💻 Technologies Used
+
 React.js - Frontend UI framework
 Vite - Fast build tool for React
 CSS3 - Styling & animations
 Flexbox & Grid - Responsive layouts
 React Hooks (useState, useEffect) - State management
 ES6+ JavaScript - Modern JavaScript features
+
 📖 How to Use
 
 🏠 Home Page
